@@ -1,0 +1,25 @@
+# OS noise
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+*.swp
+
+# Large lab artifacts - keep these out of Git
+*.iso
+*.qcow2
+*.vmdk
+*.ova
+*.deb
+*.exe
+
+# Wireshark captures can be huge - commit only small, curated ones
+captures/raw/
+
+# Secrets - never commit these
+*.key
+*.pem
+secrets.yml
+.env
