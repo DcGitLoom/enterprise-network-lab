@@ -6,7 +6,7 @@ monitoring, and configuration automation — with the operational documentation
 that would be needed to actually run it.
 
 **Status:** Week 0 — setup
-**Started:** <!-- YYYY-MM-DD -->
+**Started:** September 4, 2026
 
 ---
 
@@ -21,11 +21,11 @@ that would be needed to actually run it.
 <!-- Week 6: paste the QoS before/after table here. Numbers you measured
      yourself are the most persuasive thing in this repo. -->
 
-| Metric | No QoS | With QoS |
-|---|---|---|
-| Jitter (ms) | | |
-| Packet loss (%) | | |
-| MOS | | |
+| Metric          | No QoS | With QoS |
+| --------------- | ------ | -------- |
+| Jitter (ms)     |        |          |
+| Packet loss (%) |        |          |
+| MOS             |        |          |
 
 ---
 
@@ -38,33 +38,33 @@ that would be needed to actually run it.
 
 ## Technology
 
-| Layer | Technology |
-|---|---|
-| Simulation platform | |
-| Routing | |
-| Switching | |
-| Redundancy | |
-| Firewall / VPN | |
-| Access control | |
-| Voice | |
-| Monitoring | |
-| Automation | |
+| Layer               | Technology |
+| ------------------- | ---------- |
+| Simulation platform |            |
+| Routing             |            |
+| Switching           |            |
+| Redundancy          |            |
+| Firewall / VPN      |            |
+| Access control      |            |
+| Voice               |            |
+| Monitoring          |            |
+| Automation          |            |
 
 ---
 
 ## Repository layout
 
-| Directory | Contents |
-|---|---|
-| `topology/` | Lab topology definitions (YAML / .pkt / .gns3) |
-| `configs/` | Device configurations, commented |
-| `docs/` | IP plan, security policy, diagrams, lab setup guide |
-| `runbooks/` | Tier-2 operational procedures |
-| `incidents/` | Incident writeups from failures caused and diagnosed |
-| `monitoring/` | Monitoring stack config, dashboards, alert rules |
-| `automation/` | Ansible playbooks and scripts |
-| `captures/` | Curated Wireshark captures |
-| `media/` | Screenshots and demo recordings |
+| Directory     | Contents                                             |
+| ------------- | ---------------------------------------------------- |
+| `topology/`   | Lab topology definitions (YAML / .pkt / .gns3)       |
+| `configs/`    | Device configurations, commented                     |
+| `docs/`       | IP plan, security policy, diagrams, lab setup guide  |
+| `runbooks/`   | Tier-2 operational procedures                        |
+| `incidents/`  | Incident writeups from failures caused and diagnosed |
+| `monitoring/` | Monitoring stack config, dashboards, alert rules     |
+| `automation/` | Ansible playbooks and scripts                        |
+| `captures/`   | Curated Wireshark captures                           |
+| `media/`      | Screenshots and demo recordings                      |
 
 ## Runbooks
 
